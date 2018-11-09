@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="AnviSoftTestSuite" parallel="methods">
+
+
+<test thread-count="5" name="ChromeTest">
+  <parameter name="browser" value="Chrome"></parameter>
+  <groups>
+      <run>
+         <include name="regression"></include>
+      </run>
+  </groups>
+    <classes>
+      <class name="Maven.AnviSoftTest.POMfunctions"/>
+    </classes>
+  </test> <!-- AnviSoftTestTest -->
+
+
+ <test thread-count="5" name="FirefoxTest">
+  <parameter name="browser" value="Firefox"></parameter>
+  <groups>
+      <run>
+         <include name="regression"></include>
+      </run>
+  </groups>
+    <classes>
+      <class name="Maven.AnviSoftTest.POMfunctions"/>
+    </classes>
+  </test> <!-- AnviSoftTestTest -->
+  
+  
+  
+</suite> <!-- AnviSoftTestSuite -->

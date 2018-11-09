@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AnviSoftTestSuite" duration-ms="95745" started-at="2018-11-09T01:50:38Z" finished-at="2018-11-09T01:52:13Z">
+    <groups>
+      <group name="regression">
+        <method signature="POMfunctions.iLabs()[pri:0, instance:Maven.AnviSoftTest.POMfunctions@77f99a05]" name="iLabs" class="Maven.AnviSoftTest.POMfunctions"/>
+        <method signature="POMfunctions.iLabs()[pri:0, instance:Maven.AnviSoftTest.POMfunctions@cb0ed20]" name="iLabs" class="Maven.AnviSoftTest.POMfunctions"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="POMfunctions.iLabs()[pri:0, instance:Maven.AnviSoftTest.POMfunctions@77f99a05]" name="iLabs" class="Maven.AnviSoftTest.POMfunctions"/>
+        <method signature="POMfunctions.iLabs()[pri:0, instance:Maven.AnviSoftTest.POMfunctions@cb0ed20]" name="iLabs" class="Maven.AnviSoftTest.POMfunctions"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="ChromeTest" duration-ms="47792" started-at="2018-11-09T01:50:38Z" finished-at="2018-11-09T01:51:25Z">
+      <class name="Maven.AnviSoftTest.POMfunctions">
+        <test-method status="PASS" signature="OpenBrowser(java.lang.String)[pri:0, instance:Maven.AnviSoftTest.POMfunctions@77f99a05]" name="OpenBrowser" is-config="true" duration-ms="30388" started-at="2018-11-09T07:20:38Z" finished-at="2018-11-09T07:21:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="iLabs()[pri:0, instance:Maven.AnviSoftTest.POMfunctions@77f99a05]" name="iLabs" duration-ms="17375" started-at="2018-11-09T07:21:08Z" finished-at="2018-11-09T07:21:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iLabs -->
+      </class> <!-- Maven.AnviSoftTest.POMfunctions -->
+    </test> <!-- ChromeTest -->
+    <test name="FirefoxTest" duration-ms="47887" started-at="2018-11-09T01:51:26Z" finished-at="2018-11-09T01:52:13Z">
+      <class name="Maven.AnviSoftTest.POMfunctions">
+        <test-method status="PASS" signature="OpenBrowser(java.lang.String)[pri:0, instance:Maven.AnviSoftTest.POMfunctions@cb0ed20]" name="OpenBrowser" is-config="true" duration-ms="30494" started-at="2018-11-09T07:21:26Z" finished-at="2018-11-09T07:21:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="iLabs()[pri:0, instance:Maven.AnviSoftTest.POMfunctions@cb0ed20]" name="iLabs" duration-ms="17389" started-at="2018-11-09T07:21:56Z" finished-at="2018-11-09T07:22:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iLabs -->
+      </class> <!-- Maven.AnviSoftTest.POMfunctions -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- AnviSoftTestSuite -->
+</testng-results>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [AnviSoftTestSuite]">
+  <test name="FirefoxTest(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Maven.AnviSoftTest.POMfunctions">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="iLabs"/>
+        </methods>
+      </class> <!-- Maven.AnviSoftTest.POMfunctions -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+  <test name="ChromeTest(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Maven.AnviSoftTest.POMfunctions">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="iLabs"/>
+        </methods>
+      </class> <!-- Maven.AnviSoftTest.POMfunctions -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [AnviSoftTestSuite] -->
